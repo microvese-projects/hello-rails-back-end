@@ -24,6 +24,8 @@
 
 **Hello Rails Back End** is an app created to serve as an API to a React front end app.
 
+[link to front end app](https://github.com/microvese-projects/hello-react-front-end)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -72,14 +74,16 @@ Then install the project's necessary dependencies with:
 
 ```ssh
   bundle install
-  npm install
+  rails db:create
+  rails db:migrate
+  rails db:seed
 ```
 ### To start the app
 
 Run the command below:
 
 ```ssh
-  rails server
+  rails server -p 3001
 ```
 
 
